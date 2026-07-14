@@ -19,6 +19,13 @@ The official e-commerce turnover index for reference month T is published by Eur
 **T+0** - the moment month T ends - using only information that would actually be available at that
 moment:
 
+| Data Source | Description | Source URL |
+|---|---|---|
+| **Eurostat Turnover** | Monthly index of retail trade turnover (NACE G47.91) | [sts_trtu_m](https://ec.europa.eu/eurostat/databrowser/view/sts_trtu_m) |
+| **Eurostat HICP** | Harmonised Index of Consumer Prices (monthly) | [prc_hicp_minr](https://ec.europa.eu/eurostat/databrowser/view/prc_hicp_minr) |
+| **Google Trends** | Relative search interest ("online shopping", NL) | [Google Trends](https://trends.google.com/trends/) | 
+
+
 | Source | Available at T+0? | What the model can actually use |
 |---|---|---|
 | Google Trends search index for month T | **Yes** (near real-time) | The current month's own value (used un-lagged) |
